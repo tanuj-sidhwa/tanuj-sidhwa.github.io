@@ -76,18 +76,17 @@ author:
 
 footer:
   links:
-      - label: "LinkedIn"
-        icon: "fas fa-fw fa-linkedin"
-        url: "https://https://www.linkedin.com/in/tanuj-sidhwa/"
-      # - label: "Twitter"
-      #   icon: "fab fa-fw fa-twitter-square"
-      #   url: "https://twitter.com/"
-      - label: "GitHub"
-        icon: "fab fa-fw fa-github"
-        url: "https://github.com/tanuj-sidhwa"
-      - label: "Instagram"
-        icon: "fab fa-fw fa-instagram"
-        url: "https://www.instagram.com/tanuj_sidhwa/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+      rel: "me"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
 
 defaults:
   # _posts
