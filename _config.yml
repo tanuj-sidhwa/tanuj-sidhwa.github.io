@@ -64,16 +64,16 @@ author:
   bio    : "B.Tech Mechanical Engineering student at Indian Institute of Technology Indore passionate about aerospace, propulsion, and research-driven engineering."
   
   
-    links:
-        - label: "LinkedIn"
-          icon: "fab fa-fw fa-linkedin"
-          url: "https://www.linkedin.com/in/tanuj-sidhwa/"
-        - label: "GitHub"
-          icon: "fab fa-fw fa-github"
-          url: "https://github.com/tanuj-sidhwa"
-        - label: "Instagram"
-          icon: "fab fa-fw fa-instagram"
-          url: "https://www.instagram.com/tanuj_sidhwa/"
+links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tanuj-sidhwa/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tanuj-sidhwa"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/tanuj_sidhwa/"
 
 footer:
   links:
