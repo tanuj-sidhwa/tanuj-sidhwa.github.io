@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Physics-Informed Neural Network for Engine Thermodynamics"
-author_profile: true
+author_profile: false
 permalink: /projects/engine-pinn/
 ---
 
