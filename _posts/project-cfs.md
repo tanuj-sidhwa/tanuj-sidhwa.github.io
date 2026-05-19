@@ -9,7 +9,7 @@ permalink: /projects/micro-thruster/
 **Timeline:** Jan. 2026 - Apr. 2026  
 **Code/Repository:** [View on GitHub](https://github.com/tanuj-sidhwa/HLLC_shock_capturing_OneDColdThruster)
 
-<img src="/assets/images/cfs.png" alt="Cfs" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
+<img src="/assets/images/cfs.png" alt="Cfs" style="float: left; width: 500px; margin: 0 25px 15px 0; border-radius: 8px;">
 
 ### Project Overview
 * Developed a quasi-one-dimensional finite volume solver for compressible Euler equations to model flow through converging–diverging nozzles, capturing transonic acceleration, shock formation, and supersonic expansion.
