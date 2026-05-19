@@ -1,6 +1,6 @@
 main:
-  - title: "Home"
-    url: /
+  - title: "Experience"
+    url: /experience/
   - title: "Research & Projects"
     url: /projects/
   - title: "Leadership & Achievements"
