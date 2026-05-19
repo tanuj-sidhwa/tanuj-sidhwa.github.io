@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Numerical Design and Performance Mapping of a Micro Cold-Gas Thruster"
-author_profile: true
+author_profile: false
 permalink: /projects/micro-thruster/
 ---
 

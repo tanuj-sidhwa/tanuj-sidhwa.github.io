@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Skills & Qualifications"
-author_profile: true
+author_profile: false
 permalink: /skills/
 ---
 

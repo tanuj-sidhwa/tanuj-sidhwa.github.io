@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Powered Lift Wing Design for STOL Applications"
-author_profile: true
+author_profile: false
 permalink: /projects/stol-wing/
 ---
 
