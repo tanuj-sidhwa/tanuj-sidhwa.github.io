@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CubeSat Project"
-author_profile: true
+author_profile: false
 permalink: /projects/cubesat/
 ---
 
