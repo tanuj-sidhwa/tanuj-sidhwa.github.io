@@ -9,7 +9,7 @@ permalink: /projects/stol-wing/
 **Timeline:** Oct. 2025 - Dec. 2025  
 **Code/Repository:** *(Add your GitHub link here when ready)*
 
-<img src="/assets/images/lat.png" alt="lat" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
+<img src="/assets/images/lat.png" alt="lat" style="float: left; width: 500px; margin: 0 25px 15px 0; border-radius: 8px;">
 
 ### Project Overview
 * Led a multidisciplinary team to design a high-lift STOL wing, coordinating aerodynamics, propulsion, and stability efforts while managing timelines, task delegation, and system-level integration across workstreams.
