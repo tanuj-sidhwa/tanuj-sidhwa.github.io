@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Assessment of Indoor Air Quality in Student Hostel"
-author_profile: true
+author_profile: false
 permalink: /projects/air-quality/
 ---
 
