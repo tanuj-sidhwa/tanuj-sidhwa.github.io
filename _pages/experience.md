@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Experience & Conferences"
-author_profile: true
+author_profile: false
 permalink: /experience/
 ---
 
