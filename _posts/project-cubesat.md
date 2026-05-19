@@ -9,7 +9,7 @@ permalink: /projects/cubesat/
 **Timeline:** Oct. 2024 - Nov. 2024  
 **Code/Repository:** [View on GitHub](https://github.com/Vedansh7-7/CubeSat/tree/main)
 
-<img src="/assets/images/Structural analysis (1).jpg" alt="Structural analysis" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
+<img src="/assets/images/Structural analysis (1).png" alt="Structural analysis" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
 <img src="/assets/images/Model Images (5).jpg" alt="Model Images" style="float: right; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
 
 ### Project Overview
