@@ -9,7 +9,7 @@ permalink: /projects/air-quality/
 **Timeline:** Sept. 2024 - Oct. 2025  
 **Code/Repository:** [View on GitHub](https://github.com/varshaa886/Smart-Environmental-Monitoring-Ventilation-System)
 
-![](/assets/images/update3.png)`
+<img src="/assets/images/update3.png" alt="CubeSat Chassis" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
 
 ### Project Overview
 * Developed an integrated Arduino-based monitoring system combining NDIR (MH-Z19B) and DHT11 sensors to collect continuous CO<sub>2</sub> concentration and environmental data for indoor air quality assessment in residential spaces.
