@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Leadership & Achievements"
-author_profile: true
+author_profile: false
 permalink: /achievements/
 ---
 
