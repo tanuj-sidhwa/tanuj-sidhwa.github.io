@@ -9,7 +9,8 @@ permalink: /projects/cubesat/
 **Timeline:** Oct. 2024 - Nov. 2024  
 **Code/Repository:** [View on GitHub](https://github.com/Vedansh7-7/CubeSat/tree/main)
 
-*(Optional: Add your thumbnail image here using `![CubeSat Chassis Render](/assets/images/your-image.jpg)`)*
+<img src="/assets/images/Structural analysis (1).jpg" alt="Structural analysis" style="float: left; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
+<img src="/assets/images/Model Images (8).jpg" alt="Model Images" style="float: right; width: 300px; margin: 0 25px 15px 0; border-radius: 8px;">
 
 ### Project Overview
 * Led the team on the project, overseeing work distribution, workflow coordination, and cross-domain communication for smooth and coherent project progress; also handled official documentation like proposal and report drafting.
