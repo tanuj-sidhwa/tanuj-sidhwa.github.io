@@ -7,8 +7,20 @@ author_profile: true
 permalink: /
 ---
 
-[cite_start]Currently, I am pursuing my B.Tech with a Major in Mechanical Engineering and a Minor in Astronomy at the Indian Institute of Technology, Indore[cite: 4, 5, 6, 7]. My academic focus centers on aerospace, propulsion systems, and research-driven engineering.
 
-[cite_start]In the summer of 2025, I served as a Research Intern for the IASC-INSA-NASI Summer Research Fellowship at the Advanced Propulsion Laboratory, Indian Institute of Technology, Kanpur[cite: 15, 16, 17, 18]. [cite_start]I conducted static structural and fatigue analysis of serpentine nozzles using ANSYS to evaluate deformation behavior under complex fluid-induced loading[cite: 19, 20].
+# Hi, I'm Tanuj Sidhwa
 
-[cite_start]I am also highly active in student leadership, currently serving as the President of the Mechanical Engineering Student Association at IIT Indore[cite: 68].
+I am a B.Tech Mechanical Engineering student at IIT Indore with a strong interest in aerospace engineering, propulsion systems, computational modeling, and research-driven engineering design.
+
+My work spans across multidisciplinary projects involving CFD, structural analysis, thermodynamics, embedded sensing systems, and physics-informed machine learning. I enjoy breaking down complex engineering problems into intuitive and practical solutions while combining analytical reasoning with computational tools.
+
+Currently, I am involved in projects related to:
+- Aerospace propulsion and thermofluid systems
+- Physics-Informed Neural Networks (PINNs)
+- CubeSat structural development
+- Indoor air quality and environmental monitoring
+- High-lift STOL wing design and aerodynamic analysis
+
+Apart from technical work, I serve as the President of the Mechanical Engineering Students Association (MechE-SA), IIT Indore, where I work towards building stronger technical culture, collaboration, and outreach within the department.
+
+This website is currently under active development and will soon include detailed project documentation, research work, publications, and technical blogs.
