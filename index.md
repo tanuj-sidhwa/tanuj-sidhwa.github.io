@@ -4,6 +4,7 @@ title: "Portfolio - Tanuj Sidhwa"
 author_profile: true
 permalink: /
 ---
+I am a B.Tech Mechanical Engineering student at IIT Indore with a strong interest in aerospace engineering, propulsion systems, computational modeling, and research-driven engineering design.
 
 <style>
   /* 1. Hide the large automatic page title */
