@@ -31,10 +31,13 @@ $link-color-hover:      #C084FC;
 /* ==========================================================================
    ACTIVE NAVIGATION LINK (Current Page)
    ========================================================================== */
+/* This targets the active class exactly where the theme puts it */
+.masthead__menu-item a.active,
 .masthead__menu-item.active > a {
   color: #FFFFFF !important; 
   font-weight: bold !important; 
   border-bottom: 3px solid $primary-color !important; 
+  padding-bottom: 4px; /* Gives the text some breathing room from the underline */
 }
 
 /* ==========================================================================
@@ -42,7 +45,7 @@ $link-color-hover:      #C084FC;
    ========================================================================== */
 /* 1. Keep normal links thin, but add the smooth hover fade */
 .masthead__menu-item a {
-  font-weight: normal !important; /* <--- Changed this back to normal! */
+  font-weight: normal; /* Removed !important so it doesn't fight the active bold state */
   transition: color 0.2s ease-in-out; 
 }
 
