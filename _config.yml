@@ -24,6 +24,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: "neon"
 search: false
+atom_feed: hide
 
 # Build settings
 markdown: kramdown
@@ -75,11 +76,14 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/tanuj_sidhwa/"
+    - label: "X"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/tanuj_sidhwa"
 
 footer:
     links:
         - label: "LinkedIn"
-          icon: "fas fa-brands fa-linkedin"
+          icon: "fab fa-fw fa-linkedin"
           url: "https://https://www.linkedin.com/in/tanuj-sidhwa/"
         
         - label: "GitHub"
@@ -88,7 +92,7 @@ footer:
         - label: "Instagram"
           icon: "fab fa-fw fa-instagram"
           url: "https://www.instagram.com/tanuj_sidhwa/"
-          - label: "X"
+        - label: "X"
           icon: "fab fa-fw fa-twitter-square"
           url: "https://x.com/tanuj_sidhwa"
 
