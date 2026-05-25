@@ -1,46 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
-// To take full control of your color scheme from here on out, you just need to know how to use Hex Codes.
-
-// Every color on the internet is represented by a 6-character code that starts with a hashtag (like #7C3AED). To change any color on your site, you just swap out the hex codes in that assets/css/main.scss file we just created.
-
-// Here is your personal cheat sheet for exactly what each variable in that file controls:
-
-// Your Color Cheat Sheet
-// When you open main.scss, you will see a list of variables starting with $. Here is what happens when you change the hex code next to them:
-
-// $background-color: Changes the main background of your entire website.
-
-// $code-background-color: Changes the background color of any code snippets you post, and sometimes slightly tints the sidebar.
-
-// $text-color: Changes your main paragraph text. (Usually best to keep this white or a very light grey so it's readable!).
-
-// $muted-text-color: Changes the color of smaller text, like dates or subtitles.
-
-// $primary-color: This is your "Brand" color! It changes that new active page underline, buttons, and special highlighted elements.
-
-// $link-color: Changes the color of any hyperlinks you put inside your text (like your GitHub repository links).
-
-// $link-color-hover: Changes the color a link turns into when someone rests their mouse on it.
-
-// $border-color: Changes the color of the faint divider lines between sections.
-
-// How to find new colors
-// Whenever you get bored of the purple and want to switch to, say, a cyberpunk yellow or a sleek crimson red:
-
-// Go to Google and search "Hex Color Picker".
-
-// A tool will pop up right in the search results. Drag the slider to find the exact color you want.
-
-// Copy the HEX value (it will look like #FF3366).
-
-// Open your main.scss file in GitHub, paste that code next to $primary-color:, and commit the file.
-
-// You are now fully in control of your site's aesthetic!
-
-
 @charset "utf-8";
 
 /* ==========================================================================
@@ -48,33 +7,32 @@
    ========================================================================== */
 
 /* Backgrounds */
-$background-color:      #0B0E14; /* Deep void black/blue */
-$code-background-color: #131722; /* Slightly lighter dark blue for code blocks */
+$background-color:      #0B0E14; 
+$code-background-color: #131722; 
 
 /* Text */
-$text-color:            #FFFFFF; /* Crisp light grey for easy reading */
-$muted-text-color:      #E2E8F0; /* Darker grey for subtitles/dates */
+$text-color:            #FFFFFF; 
+$muted-text-color:      #E2E8F0; 
 
 /* Brand Colors (Purple & Blue) */
-$primary-color:         #7C3AED; /* Electric Purple (buttons, active states) */
-$border-color:          #1E293B; /* Faint navy blue for borders/dividers */
+$primary-color:         #7C3AED; 
+$border-color:          #1E293B; 
 
 /* Links */
-$link-color:            #38BDF8; /* Bright Cyan/Blue for links */
-$link-color-hover:      #C084FC; /* Light neon purple when hovered */
+$link-color:            #38BDF8; 
+$link-color-hover:      #C084FC; 
 
-/* ==========================================================================
-   ACTIVE NAVIGATION LINK (Current Page)
-   ========================================================================== */
-
-/* Targets the specific menu item for the page you are currently on */
-.greedy-nav .masthead__menu-item.active > a {
-  color: #FFFFFF !important; /* Makes the text pure, bright white */
-  font-weight: bold; /* Slightly thickens the text to make it pop */
-  border-bottom: 3px solid $primary-color !important; /* Keeps your purple underline permanently visible */
-}
 /* ==========================================================================
    IMPORT THEME ENGINE (Do not delete this section!)
    ========================================================================== */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* ==========================================================================
+   ACTIVE NAVIGATION LINK (Current Page)
+   ========================================================================== */
+.masthead__menu-item.active > a {
+  color: #FFFFFF !important; 
+  font-weight: bold !important; 
+  border-bottom: 3px solid $primary-color !important; 
+}
