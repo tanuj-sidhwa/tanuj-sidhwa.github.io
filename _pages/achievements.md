@@ -15,6 +15,7 @@ permalink: /achievements/
 
 ### Selected Achievements
 
+* **Awarded AP grade in AA374: Computational Fluids and Structures (2026)** for exceptional performance, securing the top rank in the class.    
 * **6th Position, InterIIT Techmeet 14.0 (2025)** LAT Aerospace HighPrep PS, Powered Lift Wing Design.
 * **Bronze Medal, IITISoC'24 (2024)** Design & Modelling, Material Selection, Design and FEA of CubeSat.
 * **Reliance Foundation Undergraduate Scholar (2024)** Selected for the prestigious Reliance Foundation Undergraduate Scholarship.
