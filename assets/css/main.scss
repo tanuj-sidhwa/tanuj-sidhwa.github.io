@@ -40,10 +40,10 @@ $link-color-hover:      #C084FC;
 /* ==========================================================================
    TOP NAVIGATION HOVER EFFECT
    ========================================================================== */
-/* 1. Make all top menu items bold so they stand out from normal text */
+/* 1. Keep normal links thin, but add the smooth hover fade */
 .masthead__menu-item a {
-  font-weight: bold !important; 
-  transition: color 0.2s ease-in-out; /* Adds a smooth fade effect when hovering */
+  font-weight: normal !important; /* <--- Changed this back to normal! */
+  transition: color 0.2s ease-in-out; 
 }
 
 /* 2. Turn the text neon purple when the mouse hovers over it */
