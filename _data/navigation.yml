@@ -3,6 +3,8 @@ main:
     url: /experience/
   - title: "Projects"
     url: /projects/
+  - title: "Blog"
+    url: /blog/
   - title: "Skills"
     url: /skills/
   - title: "Achievements"
