@@ -7,21 +7,20 @@ permalink: /skills/
 
 ## Technical Skills
 
-* **Analysis:** Ansys (Static and Transient Structural, Modal, Harmonic, Thermal & Fluent\*), XFLR, XFOIL
-* **Design:** Fusion 360, CATIA V5, Ansys SpaceClaim
-* **Programming:** Python, NumPy\*, Pandas, C++
-* **MatLab:** Numerical Methods
+* **Simulation & Aerodynamic Analysis:** ANSYS Mechanical (Static & Transient Structural, Modal, Harmonic, Thermal), ANSYS Fluent\*, XFLR5, XFOIL
+* **CAD & Design:** CATIA V5, Fusion 360, ANSYS SpaceClaim
+* **Scientific Computing & Machine Learning:** Python, MATLAB, C++, NumPy\*, SciPy\*, Pandas, PyTorch\*
 
-*( \* Indicates elementary proficiency )*
+*(\* Indicates elementary proficiency)*
 
 ---
 
 ## Key Courses Taken
 
-* **Mechanical Core:** Fluid Machinery, Fluid Mechanics, Strength of Materials, Solid Mechanics, Theory of Manufacturing, Thermodynamics, Principles of Industrial Engineering, Machining Science and Metrology, Heat Transfer, Instrumentation and Control Systems
 * **Mathematics:** Linear Algebra, Multivariable Calculus, Differential Equations, Real Analysis, Complex Analysis, Numerical Methods
-* **Minor & Electives:** Introduction to Astronomy, Flight Mechanics and Classical Control, IoT for Space Applications, Fundamentals of Vibrations, Fundamentals of Acoustics, Introduction to Robotics
-* **Institute Core:** Basics of Physics, Engineering Mechanics
+* **Mechanical Core:** Fluid Mechanics, Thermodynamics, Heat Transfer, Applied Thermodynamics, Strength of Materials, Solid Mechanics, Engineering Mechanics, Design of Machine Elements, Kinematics & Dynamics of Machines, Instrumentation and Control Systems, Principles of Industrial Engineering
+* **Electives:** Fundamentals of Vibrations, Fundamentals of Acoustics, Introduction to Robotics, Automobile Engineering, Introduction to Electric Vehicles, Computational Fluids and Structures
+* **Minor:** Introduction to Astronomy, Flight Mechanics and Classical Control, IoT for Space Applications, High Energy Astrophysics and Transient Sky
 
 ---
 
