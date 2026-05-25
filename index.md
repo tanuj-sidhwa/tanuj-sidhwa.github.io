@@ -1,14 +1,47 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
+title: "Portfolio - Tanuj Sidhwa"
 author_profile: true
 permalink: /
 ---
 
-[cite_start]Currently, I am pursuing my B.Tech with a Major in Mechanical Engineering and a Minor in Astronomy at the Indian Institute of Technology, Indore[cite: 4, 5, 6, 7]. My academic focus centers on aerospace, propulsion systems, and research-driven engineering.
+<style>
+  /* 1. Hide the large automatic page title */
+  .page__title {
+    display: none !important;
+  }
 
-[cite_start]In the summer of 2025, I served as a Research Intern for the IASC-INSA-NASI Summer Research Fellowship at the Advanced Propulsion Laboratory, Indian Institute of Technology, Kanpur[cite: 15, 16, 17, 18]. [cite_start]I conducted static structural and fatigue analysis of serpentine nozzles using ANSYS to evaluate deformation behavior under complex fluid-induced loading[cite: 19, 20].
+  /* 2. Make the profile picture and name even larger */
+  .author__avatar img {
+    max-width: 240px !important; /* Increased from 200px */
+    border-radius: 50%;
+  }
+  .author__name {
+    font-size: 1.8em !important;
+    margin-top: 15px;
+  }
 
-[cite_start]I am also highly active in student leadership, currently serving as the President of the Mechanical Engineering Student Association at IIT Indore[cite: 68].
+  /* 3. Widen the entire sidebar */
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 420px !important; /* Widened the column */
+      padding-right: 40px;
+    }
+    .page {
+      width: calc(100% - 420px) !important; /* Prevents text from overlapping the new wide sidebar */
+    }
+  }
+</style>
+
+My work spans across multidisciplinary projects involving CFD, structural analysis, thermodynamics, embedded sensing systems, and physics-informed machine learning. I enjoy breaking down complex engineering problems into intuitive and practical solutions while combining analytical reasoning with computational tools.
+
+Currently, I am involved in projects related to:
+* Aerospace propulsion and thermofluid systems
+* Physics-Informed Neural Networks (PINNs)
+* CubeSat structural development
+* Indoor air quality and environmental monitoring
+* High-lift STOL wing design and aerodynamic analysis
+
+Apart from technical work, I serve as the President of the Mechanical Engineering Students Association (MechE-SA), IIT Indore, where I work towards building stronger technical culture, collaboration, and outreach within the department.
+
+This website is currently under active development and will soon include detailed project documentation, research work, publications, and technical blogs.
