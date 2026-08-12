@@ -7,6 +7,13 @@ permalink: /experience/
 
 ## Professional Experience
 
+### Liquid Propulsion Systems Centre (LPSC), ISRO
+**Bengaluru, India** *Research Intern | Vijay Kumar, Scientist/Engineer 'SG' (Jun. 2026 - Jul. 2026)*
+
+* Developed and improved an OpenFOAM-based electrohydrodynamic solver for cone–jet electrosprays through boundary-condition corrections, mesh refinement, interface treatment, and storage optimization.
+* Validated the computational framework against LPSC experimental cone–jet observations, reproducing stable Taylor-cone formation and physically consistent electrospray behavior for subsequent parametric studies.
+* Investigated the effects of voltage, flow rate, electrode spacing, and emitter geometry, identifying electric-field strength and emitter design as primary drivers of emitted current and electrospray performance.
+
 ### IASc-INSA-NASI Summer Research Fellowship
 **Indian Institute of Technology, Kanpur** *Research Intern | Dr. Abhijit Kushari, Advanced Propulsion Laboratory (May 2025 - Jul. 2025)*
 
