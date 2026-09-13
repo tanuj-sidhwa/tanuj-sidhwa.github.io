@@ -7,11 +7,11 @@ permalink: /skills/
 
 ## Technical Skills
 
-* **Simulation & Aerodynamic Analysis:** ANSYS Mechanical (Static & Transient Structural, Modal, Harmonic, Thermal), ANSYS Fluent\*, XFLR5, XFOIL
+* **Simulation & Aerodynamic Analysis:** ANSYS Mechanical (Static & Transient Structural, Modal, Harmonic, Thermal), ANSYS Fluent, XFLR5, XFOIL
 * **CAD & Design:** CATIA V5, Fusion 360, ANSYS SpaceClaim
-* **Scientific Computing & Machine Learning:** Python, MATLAB, C++, NumPy\*, SciPy\*, Pandas, PyTorch\*
+* **Scientific Computing & Machine Learning:** Python, MATLAB, C++, NumPy, SciPy, Pandas, PyTorch
 
-*(\* Indicates elementary proficiency)*
+
 
 ---
 
