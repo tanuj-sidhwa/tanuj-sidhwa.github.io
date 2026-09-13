@@ -39,10 +39,11 @@ My work spans across multidisciplinary projects involving CFD, structural analys
 Currently, I am involved in projects related to:
 * Aerospace propulsion and thermofluid systems
 * Physics-Informed Neural Networks (PINNs)
+* Electrohydrodynamic Simulations using OpenFOAM
 * CubeSat structural development
 * Indoor air quality and environmental monitoring
 * High-lift STOL wing design and aerodynamic analysis
 
 Apart from technical work, I serve as the President of the Mechanical Engineering Students Association (MechE-SA), IIT Indore, where I work towards building stronger technical culture, collaboration, and outreach within the department.
 
-This website is currently under active development and will soon include detailed project documentation, research work, publications, and technical blogs.
+
