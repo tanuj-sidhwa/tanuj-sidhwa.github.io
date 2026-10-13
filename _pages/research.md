@@ -2,10 +2,11 @@
 layout: single
 permalink: /research/
 title: "Research"
-description: "Research projects in electrospray physics, gelled fuel combustion, engine modelling and liquid sloshing."
+description: "Research in fluid mechanics, combustion, propulsion and computational modelling."
 author_profile: true
 author: tanuj
 ---
+
 
 ## Research interests
 
