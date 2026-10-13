@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Engineering Projects"
-author_profile: false
 permalink: /projects/
-description: "Selected projects in compressible-flow simulation, aerodynamic design, structural analysis, and experimental sensing."
+title: "Engineering Projects"
+description: "Engineering projects in numerical methods, aircraft design, structural analysis and experimental sensing."
+author_profile: true
+author: tanuj
 ---
 
-<p class="page-intro">Selected engineering projects demonstrating numerical methods, modelling, experiment design, and multidisciplinary team work. For ongoing and recent academic investigations, visit the <a href="{{ '/research/' | relative_url }}">Research page</a>.</p>
+<p class="section-introduction">These projects were undertaken to solve specific engineering problems, develop numerical tools or build and assess a design. For research questions that are still being investigated, see my <a href="{{ '/research/' | relative_url }}">Research page</a>.</p>
 
 <div class="project-grid">
   {% for project in site.data.projects %}

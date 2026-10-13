@@ -2,20 +2,21 @@
 layout: single
 permalink: /research/
 title: "Research"
-description: "Research in electrohydrodynamics, droplet combustion, diesel-engine modelling, and liquid sloshing."
-author_profile: false
+description: "Research projects in electrospray physics, gelled fuel combustion, engine modelling and liquid sloshing."
+author_profile: true
+author: tanuj
 ---
-
-<p class="page-intro">My research interests centre on how fluid-mechanical systems can be understood using a combination of physics-based models, numerical simulation, experiments, and scientific machine learning. The projects below include completed internship work and ongoing research.</p>
-
-<div class="research-grid research-grid--page">
-  {% for project in site.data.research %}
-    {% include research-card.html item=project %}
-  {% endfor %}
-</div>
 
 ## Research interests
 
-**Computational fluid dynamics · Multiphase flows · Combustion and propulsion · Electrohydrodynamics · Physics-informed machine learning**
+Computational fluid dynamics, multiphase flow, combustion, aerospace propulsion, electrohydrodynamics and scientific machine learning.
 
-For technical details and publications, see the project summaries and my [academic CV]({{ '/assets/CV%20-%20Tanuj%20Sidhwa.pdf' | relative_url }}).
+<p class="section-introduction">The work below includes research carried out during internships and projects that are still in progress. Each page describes the question I am investigating, the methods I have used and the present state of the work.</p>
+
+## Research work
+
+<div class="research-index">
+  {% for project in site.data.research %}
+    {% include research-card.html item=project number=forloop.index %}
+  {% endfor %}
+</div>
