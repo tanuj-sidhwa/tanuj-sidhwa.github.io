@@ -1,19 +1,28 @@
 ---
 layout: single
-title: "Assessment of Indoor Air Quality in Student Hostel"
+title: "Experimental Assessment of Indoor Air Quality"
 author_profile: false
 permalink: /projects/air-quality/
+description: "Experimental measurement of CO₂ concentrations and environmental conditions under changing room occupancy."
 ---
 
-**Supervisor:** Prof. Ritunesh Kumar, Department of Mechanical Engineering  
-**Timeline:** Sept. 2024 - Oct. 2025  
-**Code/Repository:** [View on GitHub](https://github.com/varshaa886/Smart-Environmental-Monitoring-Ventilation-System)
+<p class="research-meta">IIT Indore · Supervisor: Prof. Ritunesh Kumar · September 2024–October 2025</p>
 
-<img src="/assets/images/update3.png" alt="CubeSat Chassis" style="float: left; width: 500px; margin: 0 25px 15px 0; border-radius: 8px;">
+<p class="research-detail__lede">This work examined how occupant presence and ventilation influence the evolution of indoor carbon dioxide concentration in student accommodation.</p>
 
-### Project Overview
-* Developed an integrated Arduino-based monitoring system combining NDIR (MH-Z19B) and DHT11 sensors to collect continuous CO<sub>2</sub> concentration and environmental data for indoor air quality assessment in residential spaces.
-* Conducted controlled experiments under varying occupancy levels to monitor CO<sub>2</sub> buildup across different ventilation conditions, capturing time-dependent concentration trends inside student hostel rooms.
+<figure class="project-figure">
+  <img src="{{ '/assets/images/update3.png' | relative_url }}" alt="Existing figure associated with the indoor air quality monitoring study" loading="lazy">
+  <figcaption>Selected image from the indoor air quality monitoring project.</figcaption>
+</figure>
 
-### Outcomes
-* First author of a paper based on the project, accepted at International Conference on Thermofluids Engineering (INCOTHERM) 2025, IIT(ISM) Dhanbad, Oct. 2025.
+## Experimental methodology
+
+- Developed a measurement setup combining an NDIR CO₂ sensor (MH-Z19B) and a DHT11 environmental sensor with an Arduino-based system.
+- Acquired time-dependent concentration and environmental measurements under different occupancy or ventilation conditions.
+- Analysed concentration trends and considered how changing room conditions affect interpretation of the data.
+
+## Research outcome
+
+I was **first author** of *Experimental Investigations on Effects of Student Occupancy Rate in a Student Hostel Room on Indoor Air Quality*, presented at INCOTHERM 2025, IIT (ISM) Dhanbad.
+
+[View the project repository on GitHub](https://github.com/varshaa886/Smart-Environmental-Monitoring-Ventilation-System).
