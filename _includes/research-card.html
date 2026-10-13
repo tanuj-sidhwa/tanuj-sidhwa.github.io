@@ -1,10 +1,18 @@
+
 {% assign research = include.item %}
-<article class="research-entry">
-  <div class="research-entry__index" aria-hidden="true">0{{ include.number }}</div>
+
+<a class="research-entry" href="{{ research.url | relative_url }}">
   <div class="research-entry__body">
-    <p class="entry-affiliation">{{ research.organization }}</p>
-    <h3><a href="{{ research.url | relative_url }}">{{ research.title }}</a></h3>
-    <p>{{ research.summary }}</p>
-    <a class="text-link" href="{{ research.url | relative_url }}">Read the project <span aria-hidden="true">→</span></a>
+
+    <h3>{{ research.title }}</h3>
+
+    <p class="entry-affiliation">
+      {{ research.organization }}
+    </p>
+
+    <p class="entry-summary">
+      {{ research.summary }}
+    </p>
+
   </div>
 </article>

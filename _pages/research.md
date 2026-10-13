@@ -7,17 +7,14 @@ author_profile: true
 author: tanuj
 ---
 
+## Areas of interest
 
-## Research interests
+Computational fluid dynamics, multiphase flow, combustion, propulsion, electrohydrodynamics and scientific machine learning.
 
-Computational fluid dynamics, multiphase flow, combustion, aerospace propulsion, electrohydrodynamics and scientific machine learning.
-
-<p class="section-introduction">The work below includes research carried out during internships and projects that are still in progress. Each page describes the question I am investigating, the methods I have used and the present state of the work.</p>
-
-## Research work
+## Selected work
 
 <div class="research-index">
   {% for project in site.data.research %}
-    {% include research-card.html item=project number=forloop.index %}
+    {% include research-card.html item=project %}
   {% endfor %}
 </div>
