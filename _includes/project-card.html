@@ -1,11 +1,14 @@
 {% assign project = include.item %}
-<a class="project-card" href="{{ project.url | relative_url }}">
-  <img class="project-card__image" src="{{ project.image | relative_url }}" alt="{{ project.alt | escape }}" loading="lazy">
-  <div class="project-card__body">
-    <span class="eyebrow">{{ project.category }}</span>
-    <h3>{{ project.title }}</h3>
-    <p class="research-card__org">{{ project.organization }}</p>
+<article class="engineering-entry">
+  {% if project.image %}
+    <a href="{{ project.url | relative_url }}" class="engineering-entry__figure">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.alt | escape }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="engineering-entry__body">
+    <p class="entry-affiliation">{{ project.organization }}</p>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p>{{ project.summary }}</p>
-    <span class="card-link">View project <span aria-hidden="true">→</span></span>
+    <a class="text-link" href="{{ project.url | relative_url }}">Read project details <span aria-hidden="true">→</span></a>
   </div>
-</a>
+</article>
