@@ -1,21 +1,31 @@
 ---
 layout: single
-title: "Powered Lift Wing Design for STOL Applications"
+title: "High-Lift STOL Wing Design"
 author_profile: false
 permalink: /projects/stol-wing/
+description: "Team-led aerodynamic and computational design of a powered-lift wing for a short-takeoff-and-landing design challenge."
 ---
 
-**Competition/Event:** InterIIT Tech Meet 14.0: High Prep – LAT Aerospace  
-**Timeline:** Oct. 2025 - Dec. 2025  
-**Code/Repository:** *(Add your GitHub link here when ready)*
+<p class="research-meta">Inter-IIT Tech Meet 14.0 · LAT Aerospace high-prep problem · Team lead · October–December 2025</p>
 
-<img src="/assets/images/lat.png" alt="lat" style="float: left; width: 500px; margin: 0 25px 15px 0; border-radius: 8px;">
+<p class="research-detail__lede">Led a multidisciplinary team developing a short-takeoff-and-landing wing concept, combining aerodynamic theory, airfoil selection, high-lift devices, and numerical evaluation.</p>
 
-### Project Overview
-* Led a multidisciplinary team to design a high-lift STOL wing, coordinating aerodynamics, propulsion, and stability efforts while managing timelines, task delegation, and system-level integration across workstreams.
-* Drove key technical decisions including airfoil selection, high-lift device configuration, and powered-lift concepts through trade-off studies balancing lift augmentation, drag penalties, stability margins, and computational cost.
-* Supervised and reviewed CFD-driven design iterations in ANSYS Fluent and Workbench, ensuring consistency between 2D, semi-2D, and 3D analyses, and alignment with analytical models.
+<figure class="project-figure">
+  <img src="{{ '/assets/images/lat.png' | relative_url }}" alt="High-lift wing concept or aerodynamic analysis from the STOL design project" loading="lazy">
+  <figcaption>Selected design visualization from the STOL wing project.</figcaption>
+</figure>
 
-### Outcomes & Results
-* Guided development and validation of multi-fidelity aerodynamic models, integrating theoretical predictions, automated CFD workflows, and parametric studies to achieve a **Lift Coefficient of 6.81**.
-* Consolidated technical findings into a comprehensive end-evaluation report, synthesizing analytical modeling, numerical simulations, and performance insights for competition review and future design scalability.
+## Design problem
+
+Develop an aerodynamic configuration capable of generating high lift at low takeoff speed while accounting for drag, stability, geometric constraints, and practical design trade-offs.
+
+## Methodology and role
+
+- Coordinated aerodynamics, propulsion and stability workstreams, timelines and design reviews.
+- Evaluated airfoil and high-lift-device configurations using analytical methods and CFD-informed trade-offs.
+- Oversaw 2D, quasi-2D, and 3D modelling, focusing on cross-checking assumptions and interpretation.
+- Consolidated the team's calculations and simulation results into the competition submission.
+
+## Outcome
+
+Our team placed **sixth** in the competition. The project report also documents the lift-performance predictions under its selected configurations; individual coefficient values should be interpreted together with the simulation conditions and reference-area definitions.
