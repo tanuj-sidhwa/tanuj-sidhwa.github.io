@@ -1,35 +1,43 @@
 ---
 layout: single
-title: "Experience & Conferences"
+title: "Research Experience & Presentations"
 author_profile: false
 permalink: /experience/
+description: "Research internships at ISRO–LPSC and IIT Kanpur, plus selected conference contributions."
 ---
 
-## Professional Experience
+<p class="page-intro">Research internships have given me experience in multiphysics CFD and computational structural mechanics, alongside academic projects in combustion and scientific machine learning.</p>
 
-### Liquid Propulsion Systems Centre (LPSC), ISRO
-**Bengaluru, India** *Research Intern | Vijay Kumar, Scientist/Engineer 'SG' (Jun. 2026 - Jul. 2026)*
+## Research internships
 
-* Developed and improved an OpenFOAM-based electrohydrodynamic solver for cone–jet electrosprays through boundary-condition corrections, mesh refinement, interface treatment, and storage optimization.
-* Validated the computational framework against LPSC experimental cone–jet observations, reproducing stable Taylor-cone formation and physically consistent electrospray behavior for subsequent parametric studies.
-* Investigated the effects of voltage, flow rate, electrode spacing, and emitter geometry, identifying electric-field strength and emitter design as primary drivers of emitted current and electrospray performance.
+### ISRO — Liquid Propulsion Systems Centre (LPSC)
+**Research Intern · Bengaluru, India · June–July 2026**  
+**Mentor:** Vijay Kumar, Scientist/Engineer 'SG'
 
-### IASc-INSA-NASI Summer Research Fellowship
-**Indian Institute of Technology, Kanpur** *Research Intern | Dr. Abhijit Kushari, Advanced Propulsion Laboratory (May 2025 - Jul. 2025)*
+Worked on an OpenFOAM-based solver for electrohydrodynamic cone–jet electrosprays. Improved boundary conditions, mesh and interface treatment, and numerical workflows. Investigated how voltage, emitter geometry, flow rate and electrode configuration influence electrospray behaviour, and compared simulation results with available experimental observations.
 
-* Conducted detailed static structural analysis of serpentine nozzles in ANSYS, evaluating deformation behavior under fluid-induced forces and inertial loading relevant to propulsion systems and high-speed flow environments.
-* Performed fatigue analysis under complex loading conditions to estimate lifespan and safety factors, applying mean stress correction models including Goodman and Gerber to ensure reliability of structural components.
-* Implemented dynamic structural analysis using modal and harmonic simulations, and generated Campbell diagrams to identify resonance conditions and assess structural integrity across a wide range of excitation frequencies.
-* Studied plasticity model theory and its FEM implementation through bilinear isotropic hardening models, while developing proficiency in CATIA V5 and conducting preliminary FSI studies supported by relevant literature.
+**Methods:** OpenFOAM · Multiphase CFD · Electric potential and charge transport · Interface tracking
 
----
+[Read research summary]({{ '/research/electrospray/' | relative_url }})
 
-## Conferences & Presentations
+### IASc–INSA–NASI Summer Research Fellowship · IIT Kanpur
+**Research Intern · Advanced Propulsion Laboratory · May–July 2025**  
+**Supervisor:** Dr. Abhijit Kushari
 
-### 1st International Conference on Thermofluids Engineering (INCOTHERM-2025)
-**IIT (ISM) Dhanbad** *First Author (Oct. 2025)*
-* First author of the paper presented at this conference, titled *"Experimental Investigations on Effects of Student Occupancy Rate in a Student Hostel Room on Indoor Air Quality"*.
+Performed computational structural assessments of serpentine nozzle configurations under fluid-induced and inertial loading. Investigated static deformation, fatigue life, modal characteristics, and forced harmonic response; studied resonance behaviour using Campbell diagrams and explored constitutive modelling with bilinear isotropic hardening.
 
-### Students' Academic Conference (SAC)
-**InterIIT Tech Meet 14.0, IIT Patna** *Presenter (Dec. 2025)*
-* Presented the paper titled *"An Innovative Laser Decal Transfer of ZnO Ceramic in LIG for Advanced Hybrid Nanogenerator Applications"* on behalf of the primary author.
+**Methods:** ANSYS Mechanical · Static/Fatigue/Modal/Harmonic FEA · CATIA V5
+
+## Conferences & presentations
+
+### 1st International Conference on Thermofluids Engineering (INCOTHERM 2025)
+**First author · IIT (ISM) Dhanbad · October 2025**
+
+*Experimental Investigations on Effects of Student Occupancy Rate in a Student Hostel Room on Indoor Air Quality.* Presented first-author work based on experimental CO₂ monitoring under varying occupancy and ventilation conditions.
+
+[Read project summary]({{ '/projects/air-quality/' | relative_url }})
+
+### Students' Academic Conference · Inter-IIT Tech Meet 14.0
+**Presenter · IIT Patna · December 2025**
+
+Presented *An Innovative Laser Decal Transfer of ZnO Ceramic in LIG for Advanced Hybrid Nanogenerator Applications* on behalf of its primary author.
