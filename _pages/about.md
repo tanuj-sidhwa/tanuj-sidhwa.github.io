@@ -1,39 +1,50 @@
 ---
 layout: single
-permalink: /about/
 title: "About"
-description: "Academic background, research interests, technical skills, leadership, and selected distinctions of Tanuj Sidhwa."
-author_profile: false
+permalink: /about/
+description: "Academic background, methods, leadership and distinctions of Tanuj Sidhwa."
+author_profile: true
+author: tanuj
 ---
 
-<p class="page-intro">I am a final-year B.Tech. Mechanical Engineering student at the Indian Institute of Technology Indore (2023–2027), with an academic minor in Astronomy. My work combines computational fluid dynamics, mechanics, thermofluids, and scientific computing.</p>
+<section class="academic-section about-prose">
+  <h2>How I arrived here</h2>
+  <p>My interest in space began with India's Mars Orbiter Mission. At first, I was fascinated by the idea of reaching another planet. Over time, I became more interested in the engineering that makes a mission possible, especially propulsion, fluid flow and the interaction between physical systems.</p>
+  <p>That curiosity led me to Mechanical Engineering at IIT Indore. I have particularly enjoyed courses and projects where mathematical models must be tested against numerical results or experiments. I am also pursuing a minor in Astronomy.</p>
+</section>
 
-I am interested in doctoral-level research where fundamental physics and carefully validated computational methods meet, particularly in **CFD, propulsion, combustion, multiphase flows, and electrohydrodynamics**. I have worked on simulation-focused and experimental projects at IIT Indore, ISRO–LPSC, and IIT Kanpur.
+<section class="academic-section">
+  <h2>Education</h2>
+  <div class="education-entry">
+    <h3>Indian Institute of Technology Indore</h3>
+    <p><strong>B.Tech. Mechanical Engineering</strong> · 2023 to 2027</p>
+    <p>Minor in Astronomy</p>
+    <p>Relevant coursework includes Computational Fluids and Structures, Fluid Mechanics, Heat Transfer, Numerical Methods, Vibrations, and Flight Mechanics and Classical Control.</p>
+  </div>
+</section>
 
-## Technical skills
+<section class="academic-section">
+  <h2>Methods and tools</h2>
+  <div class="skills-list">
+    <div><h3>Simulation</h3><p>OpenFOAM, ANSYS Fluent, ANSYS Mechanical, ParaView, XFLR5 and XFOIL.</p></div>
+    <div><h3>Programming</h3><p>Python, C++, MATLAB, PyTorch, NumPy and SciPy.</p></div>
+    <div><h3>Design</h3><p>CATIA V5, Fusion 360 and SpaceClaim.</p></div>
+  </div>
+</section>
 
-<div class="skills-grid">
-  <div class="skill-block"><h3>Computational mechanics</h3><p>OpenFOAM, ANSYS Fluent, ANSYS Mechanical, finite-volume methods, finite-element analysis, XFLR5 and XFOIL.</p></div>
-  <div class="skill-block"><h3>Programming & scientific ML</h3><p>Python, C++, MATLAB, PyTorch, NumPy, SciPy, Pandas and numerical post-processing.</p></div>
-  <div class="skill-block"><h3>Design & workflow</h3><p>CATIA V5, Fusion 360, SpaceClaim, ParaView, Linux/WSL and research computing workflows.</p></div>
-</div>
+<section class="academic-section">
+  <h2>Recognition</h2>
+  <ul class="academic-list">
+    <li><strong>GATE Aerospace Engineering 2026:</strong> All India Rank 144.</li>
+    <li><strong>Reliance Foundation Undergraduate Scholar:</strong> 2024.</li>
+    <li><strong>Inter-IIT Tech Meet 14.0:</strong> Sixth place in the STOL wing design challenge, as team lead.</li>
+    <li><strong>IITISoC 2024:</strong> Bronze award for CubeSat design and analysis.</li>
+    <li><strong>AA374 Computational Fluids and Structures:</strong> AP grade.</li>
+  </ul>
+</section>
 
-## Academic background
-
-- **IIT Indore:** B.Tech., Mechanical Engineering; minor in Astronomy (expected 2027).
-- **Selected advanced coursework:** Computational Fluids and Structures; Fluid Mechanics; Heat Transfer; Thermodynamics; Vibrations; Numerical Methods; Flight Mechanics and Classical Control.
-- **Research training:** ISRO–LPSC (2026); IASc–INSA–NASI Summer Research Fellowship at IIT Kanpur (2025).
-
-## Selected achievements
-
-- **GATE Aerospace Engineering 2026:** All India Rank 144.
-- **Reliance Foundation Undergraduate Scholar** (2024).
-- **Inter-IIT Tech Meet 14.0:** Sixth place in the high-lift/STOL wing problem (2025), as team lead.
-- **IITISoC 2024:** Bronze for CubeSat design and analysis.
-- **AA374 Computational Fluids and Structures:** AP grade (2026).
-
-## Leadership & interests
-
-I served as President of the Mechanical Engineering Students' Association at IIT Indore (2025–2026), and have led technical teams for aerospace and CubeSat projects. I also contribute to student communities interested in aerospace and astronomy.
-
-For a fuller academic record, please consult my [CV]({{ '/assets/CV%20-%20Tanuj%20Sidhwa.pdf' | relative_url }}). If you would like to discuss research, [email me](mailto:{{ site.email }}).
+<section class="academic-section">
+  <h2>Outside the laboratory</h2>
+  <p>I served as President of the Mechanical Engineering Students' Association at IIT Indore from 2025 to 2026. I have also helped lead student projects in aerospace and spacecraft design and have been involved with the Astronomy Club.</p>
+  <p>For research details, see <a href="{{ '/research/' | relative_url }}">Research</a> and <a href="{{ '/experience/' | relative_url }}">Experience</a>. A complete academic summary is available in my <a href="{{ '/assets/CV%20-%20Tanuj%20Sidhwa.pdf' | relative_url }}">CV</a>.</p>
+</section>
