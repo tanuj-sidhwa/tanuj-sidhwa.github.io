@@ -1,13 +1,13 @@
 main:
-  - title: "Experience"
-    url: /experience/
+  - title: "Research"
+    url: /research/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
-  - title: "Skills"
-    url: /skills/
-  - title: "Achievements"
-    url: /achievements/
+  - title: "Experience"
+    url: /experience/
+  - title: "About"
+    url: /about/
   - title: "CV"
     url: /assets/CV - Tanuj Sidhwa.pdf
+
+    

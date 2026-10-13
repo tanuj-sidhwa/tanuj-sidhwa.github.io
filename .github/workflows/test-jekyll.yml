@@ -1,0 +1,56 @@
+
+name: Test Portfolio Build
+
+on:
+  push:
+    branches:
+      - redesign
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Jekyll website
+        uses: actions/jekyll-build-pages@v1
+
+      - name: Verify generated pages
+        run: |
+          set -e
+
+          for page in \
+            index.html \
+            research/index.html \
+            research/electrospray/index.html \
+            research/gelled-fuel/index.html \
+            research/sloshing/index.html \
+            projects/index.html \
+            projects/engine-pinn/index.html \
+            projects/micro-thruster/index.html \
+            projects/stol-wing/index.html \
+            projects/cubesat/index.html \
+            projects/air-quality/index.html \
+            experience/index.html \
+            about/index.html
+          do
+            if [ ! -s "_site/$page" ]; then
+              echo "::error::Missing page: $page"
+              exit 1
+            fi
+          done
+
+          if [ ! -s "_site/assets/css/main.css" ]; then
+            echo "::error::Missing compiled CSS"
+            exit 1
+          fi
+
+          echo "Success! Jekyll build and page checks passed."
